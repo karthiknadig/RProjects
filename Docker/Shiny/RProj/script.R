@@ -169,4 +169,4 @@ ui <- shinyUI(fluidPage(
 
 
 app <- shinyApp(ui=ui, server=server);
-runApp(app, port=5444, host="0.0.0.0")
+runApp(app, port=5000, host="0.0.0.0")
